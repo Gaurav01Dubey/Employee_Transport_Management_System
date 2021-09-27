@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/css/login.css">
+    <link rel="icon" href="images/C.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- header  -->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand title" href="index.html"><i class="fab fa-cuttlefish"></i>Gaurav Travels</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="careers.html">Careers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact-us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="row">
+              <div class="text-center col-lg-5 col-md-12">
+                  <form class="text-center" action="#">
+                      <i class="mt-4 mb-4 fab fa-cuttlefish fa-4x icon"></i>
+                      <h3 class="mb-3 login">Login</h3>
+                      <label for="emailAddress" class="sr-only">Email Address</label>
+                      <input type="email" id="emailAddress" class="form-control mb-3" placeholder="Email Address" autofocus>
+                      <label for="password" class="sr-only">Password</label>
+                      <input type="password" placeholder="Password" id="password" class="form-control mb-3">
+                      <div class="checkbox">
+                          <label class="pb-2">
+                              <input type="checkbox" value="remember-me">
+                              Remember-me
+                          </label>
+                      </div>
+                      <span class="mt-5">
+                        <button class="letsgo btn btn-outline-light"><a class="p" href="#"><span class="fas fa-sign-in-alt dark"></span> Sign In</a></button>
+                      </span>
+                      <span class="mt-5 ms-3">
+                        <button class="signup btn btn-outline-light"><a class="up" href="#"><span class="fas fa-user-plus"></span> Sign up</a></button>
+                      </span>
+                  </form>
+              </div>
+              <div class="cl col-lg-7 col-md-12">
+                <img class="headerimage" src="images/Employee-Transportation2.jpeg" alt="image-of-employees-travelling">
+              </div>
+          </div>
+    </section>
+
+    <!-- benefits -->
+    <section id="benefits">
+        <div class="row">
+          <div class="fbox col-lg-4">
+            <i class="makepink fas fa-taxi fa-4x"></i>
+            <h3>Book a ride</h3>
+            <p class="para">Book a ride from source to destination.</p>
+          </div>
+          <div class="fbox col-lg-4">
+            <i class="makepink fal fa-file-alt fa-4x"></i>
+            <h3>Apply for a Leave</h3>
+            <p class="para">Apply for leave directly for here.</p>
+          </div>
+          <div class="fbox col-lg-4">
+            <i class="makepink fas fa-sms fa-4x"></i>
+            <h3>Get Notified</h3>
+            <p class="para">Get sms notifications.</p>
+          </div>
+        </div>
+    </section>
+
+      <!-- reviews -->
+    <section id="reviews">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <em><p class="review">"Had trouble with my car the other day but thanks to Cuber's 24x7 service I was able to avoid my boss' speech on punctuality."</p></em>
+                  <img src="images/img3.jpg" class="carosel-img" alt="...">
+                  <p class="side-heading fs-4">Bhavna</p>
+              </div>
+              <div class="carousel-item">
+                  <em><p class="review">"Getting a parking spot in a metropolitan is painful but thanks to Cuber I don't have to anymore."</p></em>
+                <img src="images/img2.jpg" class="carosel-img" alt="...">
+                <p class="side-heading fs-4">Ramesh</p>
+              </div>
+              <div class="carousel-item">
+                  <em><p class="review">"Whew! Just right on time. Looks like cuber drivers' have mastered the art of driving in the rain."</p></em>
+                <img src="images/img1.jpg" class="carosel-img" alt="...">
+                <p class="side-heading fs-4">Ganesh</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- footer  -->
+    <footer id="footer-container">
+      <div class="footer">
+        <div class="footer-heading footer-1">
+          <h2 class="colch">About Us</h2>
+          <a href="#footer-container">Blog</a>
+          <a href="#footer-container">Demo</a>
+          <a href="#footer-container">Customers</a>
+          <a href="#footer-container">Investors</a>
+          <a href="#footer-container">Terms of Services</a>
+        </div>
+        <div class="footer-heading footer-2">
+          <h2 class="colch">Contact us</h2>
+          <a href="#footer-container">Jobs</a>
+          <a href="#footer-container">Support</a>
+          <a href="#footer-container">Contact</a>
+          <a href="#footer-container">Investors</a>
+          <a href="#footer-container">Sponsorships</a>
+        </div>
+        <div class="footer-heading footer-3">
+          <h2 class="colch">Media</h2>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> Youtube</a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <div class="footer-email-form text-center">
+          <h2 class="colch">Join our newsletter</h2>
+          <form action="#" class="text-center">
+              <div>
+                  <input type="email" class="frm" autocomplete="off" placeholder="Enter Your Email address" id="footer-email" required>
+              </div>
+              <div>
+                  <input type="submit"value="Sign Up" class="btn btn-outline-dark text-center letsgo">
+              </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+   <script src="static/javascript/login.js"></script>
+</body>
+</html>

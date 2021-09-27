@@ -1,0 +1,52 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+body img{
+    width: 100%;
+}
+a:hover{
+    color: #fff;
+}
+
+.incfont a{
+    margin-top: 100px;
+}
+/* center  */
+.vd{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.incfont{
+    font-size: 4rem;
+    padding: 0% 0% 5% 0%;
+}
+.onhover:hover{
+    color: black;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -250px;
+}
+.item{
+    margin-right: 1.5rem;
+}
+.item:hover, .item1:hover{
+    color: black;
+}
